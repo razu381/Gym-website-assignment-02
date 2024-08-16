@@ -55,7 +55,14 @@ p{
   text-align: center;
 }
 
-
+@media screen and (max-width: 576px) {
+  .section-title{
+    font-size: 2em;
+  }
+  .section-subtitle{
+    font-size: .88em;
+  }
+}
 
   .header-content, .hero-section, main > section:not(.bmi-calculator-2){
     max-width: 1060px;
@@ -417,10 +424,10 @@ form div{
 
 form div input, form div select{
   flex: 1;
+  width: 100%;
 }
 
 #height,#weight,#age,#sex{
-  margin-right: 12px;
   margin-bottom: 12px;
 }
 #height,#weight,#age,#sex,#activity{
