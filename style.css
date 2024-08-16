@@ -184,6 +184,9 @@ p{
     top:130px;
     right: 50px;
 }
+.hero-info-card-1 #info-card-play{
+  display: none;
+}
 
 @media screen and (max-width : 576px) {
     .header-content, .hero-section, main{
@@ -231,12 +234,13 @@ p{
     }
 
     .hero-info-card-1 .red-circle{
-        height: 40px;
-        width: 40px;
-        border-radius: 50%;
-        background-color: #E6533C;
-        aspect-ratio: 1/1;
-        flex: none;
+       display: none;
+    }
+    .hero-info-card-1 #info-card-play{
+      display: block;
+      background-color: #E6533C;
+      padding: 14px;
+      border-radius: 50%;
     }
 }
 
