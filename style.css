@@ -297,13 +297,13 @@ section.about-us{
 }
 
 section.about-us .col-1 h2{
-  font-size: 3rem;
+  font-size: 3em;
   font-weight: 900;
 }
 
 section.about-us .col-1 p{
   padding: 14px 0 35px 0;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 section.about-us .col-2{
@@ -318,6 +318,13 @@ section.about-us .col-2 img{
 @media screen and (max-width: 576px) {
   section.about-us{
     flex-direction: column;
+  }
+  section.about-us .col-1 h2{
+    font-size: 2em;
+  }
+  
+  section.about-us .col-1 p{
+    font-size: 1em;
   }
 }
 
